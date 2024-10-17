@@ -60,7 +60,7 @@ const Card = ({ currentCardData, increaseStep, decreaseStep, step, length, moveT
       </div>
       <div className="h-1/3 flex flex-col justify-center items-center">
         <h2 className="text-2xl font-bold mt-2 md:mt-4">{title}</h2>
-        <p className="mt-2 px-8 h-1/3 text-sm md:text-base lg:text-lg">{description}</p>
+        <p className="text-center mt-2 px-8 h-1/3 text-sm md:text-base lg:text-lg">{description}</p>
         <div className="md:mx-16 flex justify-between items-center mt-5 md:mt-0 m-4 mb-0 px-8 lg:px-7 w-full">
           <div className="flex flex-grow">
             {renderDots()}

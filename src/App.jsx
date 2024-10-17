@@ -1,5 +1,4 @@
 import { useState } from 'react'; // Import useState from React
-import './App.css'
 import './css/style.css'
 import Card from './components/Card.jsx'
 
