@@ -1,8 +1,134 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Sprint05 Project
 
-Currently, two official plugins are available:
+This project is a React application built with Vite. It showcases a tutorial card slider with responsive design, Tailwind CSS for styling, and animations for smooth transitions between cards.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Table of Contents
+
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Technologies Used](#technologies-used)
+
+## Features
+
+- **React**: Utilizes React for building the user interface.
+- **Responsive Design**: Ensures the application looks great on all devices.
+- **Tailwind CSS**: Uses Tailwind CSS for styling and utility classes.
+- **Animations**: Smooth transitions between tutorial cards using CSS animations.
+
+## Installation
+
+1. **Clone the repository**:
+   ```sh
+   git clone https://github.com/jorditer/5.1-Onboarding-digital-Nivell3.git
+   cd Onboarding-digital-Nivell3
+   ```
+
+2. **Install dependencies**:
+   ```sh
+   npm install
+   ```
+
+3. **Run the development server**:
+   ```sh
+   npm run dev
+   ```
+
+## Usage
+
+1. **Start the development server**:
+   ```sh
+   npm run dev
+   ```
+
+2. **Open your browser** and navigate to `http://localhost:3000` to see the application in action.
+
+## Technologies Used
+
+- **React**: A JavaScript library for building user interfaces.
+- **Vite**: A fast build tool for modern web projects.
+- **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
+- **CSS Animations**: Used for smooth transitions between tutorial cards.
+
+## Detailed Explanation
+
+### React
+
+This project uses React to build the user interface. The main component is `App.jsx`, which renders the `Card` component.
+
+### Responsive Design
+
+The application is designed to be responsive, ensuring it looks great on all devices. Tailwind CSS utility classes are used to handle different screen sizes.
+
+### Tailwind CSS
+
+Tailwind CSS is used for styling the application. It provides utility classes for common CSS properties, making it easy to build responsive and consistent designs.
+
+### Animations
+
+CSS animations are used to create smooth transitions between tutorial cards. The animations are defined in the `input.css` file and applied conditionally in the `Card` component.
+
+#### Example Animation
+
+```css
+@keyframes slideOutLeft {
+  from {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.slide-out-left {
+  animation: slideOutLeft 0.5s forwards;
+}
+
+.slide-in-right {
+  animation: slideInRight 0.5s forwards;
+}
+```
+
+These animations are applied in the `Card` component to create a smooth sliding effect when navigating between tutorial steps.
+
+#### Excerpt from `Card.jsx`
+
+```jsx
+      <div className="h-1/3 flex flex-col justify-center items-center">
+        <h2 className="text-2xl font-bold mt-2 md:mt-4">{title}</h2>
+        <p className="text-center mt-2 px-8 h-1/3 text-sm md:text-base lg:text-lg">{description}</p>
+        <div className="md:mx-16 flex justify-between items-center mt-5 md:mt-0 m-4 mb-0 px-8 lg:px-7 w-full">
+          <div className="flex flex-grow">
+            {renderDots()}
+          </div>
+          <div className="flex flex-shrink-0">
+            {step > 0 && (
+              <button onClick={handleDecreaseStep} className="m-2 mt-0 w-10 md:w-12 lg:w-16 h-10 md:h-12 lg:h-16 flex items-center justify-center border text-gray-800 border-black rounded-full">
+                &larr;
+              </button>
+            )}
+            {step < length - 1 && (
+              <button onClick={handleIncreaseStep} className="m-2 mt-0 w-10 md:w-12 lg:w-16 h-10 md:h-12 lg:h-16 flex items-center justify-center bg-gray-800 text-white rounded-full">
+                &rarr;
+              </button>
+            )}
+          </div>
+        </div>
+      </div>
+
+export default Card;
+```

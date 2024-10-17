@@ -67,12 +67,12 @@ const Card = ({ currentCardData, increaseStep, decreaseStep, step, length, moveT
           </div>
           <div className="flex flex-shrink-0">
             {step > 0 && (
-              <button onClick={handleDecreaseStep} className="m-2 mt-0 w-10 md:w-12 lg:w-16 h-10 md:h-12 lg:h-16 flex items-center justify-center border text-gray-800 border-black rounded-full">
+              <button onClick={handleDecreaseStep} className="m-2 mt-0 w-10 md:w-12 lg:w-14 h-10 md:h-12 lg:h-14 flex items-center justify-center border text-gray-800 border-black rounded-full">
                 &larr;
               </button>
             )}
             {step < length - 1 && (
-              <button onClick={handleIncreaseStep} className="m-2 mt-0 w-10 md:w-12 lg:w-16 h-10 md:h-12 lg:h-16 flex items-center justify-center bg-gray-800 text-white rounded-full">
+              <button onClick={handleIncreaseStep} className="m-2 mt-0 w-10 md:w-12 lg:w-14 h-10 md:h-12 lg:h-14 flex items-center justify-center bg-gray-800 text-white rounded-full">
                 &rarr;
               </button>
             )}
