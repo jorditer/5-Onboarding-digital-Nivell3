@@ -50,6 +50,7 @@ This project is a React application built with Vite. It showcases a tutorial car
 - **Vite**: A fast build tool for modern web projects.
 - **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
 - **CSS Animations**: Used for smooth transitions between tutorial cards.
+- **Keyboard Navigation**: Use the left and right arrow keys to navigate through the cards.
 
 ## Detailed Explanation
 
@@ -104,31 +105,4 @@ CSS animations are used to create smooth transitions between tutorial cards. The
 ```
 
 These animations are applied in the `Card` component to create a smooth sliding effect when navigating between tutorial steps.
-
-#### Excerpt from `Card.jsx`
-
-```jsx
-      <div className="h-1/3 flex flex-col justify-center items-center">
-        <h2 className="text-2xl font-bold mt-2 md:mt-4">{title}</h2>
-        <p className="text-center mt-2 px-8 h-1/3 text-sm md:text-base lg:text-lg">{description}</p>
-        <div className="md:mx-16 flex justify-between items-center mt-5 md:mt-0 m-4 mb-0 px-8 lg:px-7 w-full">
-          <div className="flex flex-grow">
-            {renderDots()}
-          </div>
-          <div className="flex flex-shrink-0">
-            {step > 0 && (
-              <button onClick={handleDecreaseStep} className="m-2 mt-0 w-10 md:w-12 lg:w-16 h-10 md:h-12 lg:h-16 flex items-center justify-center border text-gray-800 border-black rounded-full">
-                &larr;
-              </button>
-            )}
-            {step < length - 1 && (
-              <button onClick={handleIncreaseStep} className="m-2 mt-0 w-10 md:w-12 lg:w-16 h-10 md:h-12 lg:h-16 flex items-center justify-center bg-gray-800 text-white rounded-full">
-                &rarr;
-              </button>
-            )}
-          </div>
-        </div>
-      </div>
-
-export default Card;
 ```
