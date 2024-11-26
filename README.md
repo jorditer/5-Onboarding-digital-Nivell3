@@ -99,9 +99,9 @@ CSS animations are used to create smooth transitions between tutorial cards. The
 
 These animations are applied in the `Card` component to create a smooth sliding effect when navigating between tutorial steps.
 
-![image](https://github.com/user-attachments/assets/f286b138-2e7c-4bbe-a58c-baca36168bfc)
+![image](https://github.com/user-attachments/assets/d5c12931-e8cd-416f-9847-32b013cc52b3)
 
-![image](https://github.com/user-attachments/assets/ac97aa44-7ab1-4778-af87-6a3a455905df)
+![image](https://github.com/user-attachments/assets/93c04927-0c96-4a74-a05b-048899d0d692)
 
 ![image](https://github.com/user-attachments/assets/84125141-2a6a-4a7d-9032-a47c798fd895)
 
