@@ -8,14 +8,15 @@ This project is a React application built with Vite. It showcases a tutorial car
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Technologies Used](#technologies-used)
 
 ## Features
 
 - **React**: Utilizes React for building the user interface.
 - **Responsive Design**: Ensures the application looks great on all devices.
+- **Vite**: A fast build tool for modern web projects.
 - **Tailwind CSS**: Uses Tailwind CSS for styling and utility classes.
 - **Animations**: Smooth transitions between tutorial cards using CSS animations.
+- **Keyboard Navigation**: Use the left and right arrow keys to navigate through the cards.
 
 ## Installation
 
@@ -43,14 +44,6 @@ This project is a React application built with Vite. It showcases a tutorial car
    ```
 
 2. **Open your browser** and navigate to `http://localhost:3000` to see the application in action.
-
-## Technologies Used
-
-- **React**: A JavaScript library for building user interfaces.
-- **Vite**: A fast build tool for modern web projects.
-- **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
-- **CSS Animations**: Used for smooth transitions between tutorial cards.
-- **Keyboard Navigation**: Use the left and right arrow keys to navigate through the cards.
 
 ## Detailed Explanation
 
@@ -105,4 +98,3 @@ CSS animations are used to create smooth transitions between tutorial cards. The
 ```
 
 These animations are applied in the `Card` component to create a smooth sliding effect when navigating between tutorial steps.
-```
