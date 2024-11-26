@@ -107,3 +107,6 @@ These animations are applied in the `Card` component to create a smooth sliding 
   <img src="https://github.com/user-attachments/assets/93c04927-0c96-4a74-a05b-048899d0d692" height="700px" alt="image">
   <img src="https://github.com/user-attachments/assets/84125141-2a6a-4a7d-9032-a47c798fd895" height="700px" alt="image">
 </div>
+<div align="center">
+  <iframe width="560" height="315" src="https://www.kapwing.com/e/67463b3564ed65bf6a08f28d" frameborder="0" allow="autoplay; gyroscope;" allowfullscreen></iframe>
+</div>
