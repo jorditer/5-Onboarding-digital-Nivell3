@@ -1,4 +1,3 @@
-
 # Sprint05 Project
 
 This project is a React application built with Vite. It showcases a tutorial card slider with responsive design, Tailwind CSS for styling, and animations for smooth transitions between cards.
@@ -8,6 +7,7 @@ This project is a React application built with Vite. It showcases a tutorial car
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Examples](#examples)
 
 ## Features
 
@@ -56,7 +56,7 @@ This project uses React to build the user interface. The main component is `App.
 The application is designed to be responsive, ensuring it looks great on all devices. Tailwind CSS utility classes are used to handle different screen sizes.
 
 ### Tailwind CSS
-
+700px
 Tailwind CSS is used for styling the application. It provides utility classes for common CSS properties, making it easy to build responsive and consistent designs.
 
 ### Animations
@@ -99,9 +99,12 @@ CSS animations are used to create smooth transitions between tutorial cards. The
 
 These animations are applied in the `Card` component to create a smooth sliding effect when navigating between tutorial steps.
 
-![image](https://github.com/user-attachments/assets/d5c12931-e8cd-416f-9847-32b013cc52b3)
+## Examples
 
-![image](https://github.com/user-attachments/assets/93c04927-0c96-4a74-a05b-048899d0d692)
+(in different screen sizes)
 
-![image](https://github.com/user-attachments/assets/84125141-2a6a-4a7d-9032-a47c798fd895)
-
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/d5c12931-e8cd-416f-9847-32b013cc52b3" height="" alt="image">
+  <img src="https://github.com/user-attachments/assets/93c04927-0c96-4a74-a05b-048899d0d692" height="700px" alt="image">
+  <img src="https://github.com/user-attachments/assets/84125141-2a6a-4a7d-9032-a47c798fd895" height="700px" alt="image">
+</div>
