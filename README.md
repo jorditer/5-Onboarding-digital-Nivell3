@@ -56,7 +56,6 @@ This project uses React to build the user interface. The main component is `App.
 The application is designed to be responsive, ensuring it looks great on all devices. Tailwind CSS utility classes are used to handle different screen sizes.
 
 ### Tailwind CSS
-700px
 Tailwind CSS is used for styling the application. It provides utility classes for common CSS properties, making it easy to build responsive and consistent designs.
 
 ### Animations
