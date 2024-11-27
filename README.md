@@ -107,5 +107,5 @@ These animations are applied in the `Card` component to create a smooth sliding 
   <img src="https://github.com/user-attachments/assets/93c04927-0c96-4a74-a05b-048899d0d692" height="700px" alt="image">
   <img src="https://github.com/user-attachments/assets/84125141-2a6a-4a7d-9032-a47c798fd895" height="700px" alt="image">
 </div>
-![Sprint5](https://github.com/user-attachments/assets/8a4c9f57-72f2-4a84-a769-34b0189218ff)
+![examples](https://s7.gifyu.com/images/SG4zD.gif)
 
