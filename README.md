@@ -23,7 +23,7 @@ This project is a React application built with Vite. It showcases a tutorial car
 1. **Clone the repository**:
    ```sh
    git clone https://github.com/jorditer/5.1-Onboarding-digital-Nivell3.git
-   cd Onboarding-digital-Nivell3
+   cd 5-Onboarding-digital-Nivell3
    ```
 
 2. **Install dependencies**:
