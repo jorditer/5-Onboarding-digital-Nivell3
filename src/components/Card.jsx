@@ -41,22 +41,6 @@ const Card = ({ currentCardData, increaseStep, decreaseStep, step, length, moveT
     };
   }, [step, length, handleIncreaseStep, handleDecreaseStep]);
 
-  // const renderDots = () => {
-  //   const dots = [];
-  //   for (let i = 0; i < length; i++) {
-  //     dots.push(
-  //       <span
-  //         key={i}
-  //         onClick={() => handleMoveTo(i)}
-  //         className={`cursor-pointer mx-1 inline-block ${i === step ? 'text-gray-800 scale-150 scale-x-[3.35]' : 'text-gray-400'}`}
-  //       >
-  //         •
-  //       </span>
-  //     );
-  //   }
-  //   return dots;
-  // };
-
   const handleMoveTo = (index) => {
     if (index > step) {
       setAnimationClass('slide-out-left');
